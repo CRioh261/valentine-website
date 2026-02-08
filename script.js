@@ -128,6 +128,11 @@ function moveButton(button) {
     button.style.position = 'fixed';
     button.style.left = x + 'px';
     button.style.top = y + 'px';
+
+    let yesBtn3 = document.getElementById('yesBtn3');
+    if (yesBtn3) {
+        yesBtn3.style.transform = 'scale(1.2)'; // Increase the size of yesBtn3
+    }
 }
 
 // Love meter functionality
