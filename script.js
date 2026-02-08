@@ -66,6 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('yesBtn1').textContent = config.questions.first.yesBtn;
     document.getElementById('noBtn1').textContent = config.questions.first.noBtn;
     document.getElementById('secretAnswerBtn').textContent = config.questions.first.secretAnswer;
+    document.getElementById('secretAnswerBtn').opacity = 0.9;
     
     // Set second question texts
     document.getElementById('question2Text').textContent = config.questions.second.text;
